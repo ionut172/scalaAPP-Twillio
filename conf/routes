@@ -1,0 +1,19 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /                           controllers.HomeController.index()
+GET     /PressOne              controllers.TwilioController.PressOne()
+GET /CallSecond                  controllers.TwilioController.CallSecond()
+GET /Prezentare                 controllers.TwilioController.Prezentare()
+GET /CallFirst                  controllers.TwilioController.CallFirst()
+GET /handleInput                controllers.TwilioController.handleInput()
+GET /handleCUI                   controllers.TwilioController.handleCUI()
+GET /Detalii                  controllers.TwilioController.Detalii()
+GET /Incheiere                 controllers.TwilioController.Incheiere()
+GET /handleCallCenter           controllers.TwilioController.handleCallCenter()
+GET /bancuri                    controllers.TwilioController.bancuri()
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

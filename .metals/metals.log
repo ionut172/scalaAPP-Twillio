@@ -1,0 +1,811 @@
+2023.12.20 10:13:50 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp' for client Visual Studio Code 1.85.1.
+2023.12.20 10:13:54 INFO  Attempting to connect to the build server...
+2023.12.20 10:13:54 INFO  Bloop uses C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot defined at C:\Users\ionut.plesescu\.bloop\bloop.json
+2023.12.20 10:13:54 ERROR Starting the bsp launcher for bloop...
+2023.12.20 10:13:54 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 28506'...
+2023.12.20 10:13:54 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:13:54 ERROR error: The command bsp --protocol tcp --port 28506 returned with an error
+2023.12.20 10:13:54 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:13:54 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:13:54 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:13:54 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:13:54 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:13:54 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:13:54 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:13:54 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:13:54 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:13:54 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:13:54 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:13:54 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:13:54 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\.bloop\root-test.json
+2023.12.20 10:13:54 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.12.20 10:13:54 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:501)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.20 10:15:53 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:16:02 INFO  no build target found for C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.20 10:16:06 INFO  time: code lens generation in 12s
+2023.12.20 10:16:06 INFO  time: code lens generation in 2.36s
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.12.20 10:29:33 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+Dec 20, 2023 10:30:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 45
+Dec 20, 2023 10:30:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+2023.12.20 10:30:14 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:30:26 ERROR Failed to tokenize input for semantic tokens for C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+scala.meta.tokenizers.TokenizeException: <input>:40: error: unclosed character literal
+  Call.creator(toPhoneNumber, fromPhoneNumber, twiml').create()
+                                                    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.20 10:30:32 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:30:47 INFO  running 'C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\IONUT~1.PLE\AppData\Local\Temp\metals12243144196670949019\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.20 10:30:49 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8312549948383979520_lock, error 5
+2023.12.20 10:30:49 INFO  sbt thinks that server is already booting because of this exception:
+2023.12.20 10:30:49 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2023.12.20 10:30:49 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2023.12.20 10:30:49 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:152)
+2023.12.20 10:30:49 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:78)
+2023.12.20 10:30:49 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:78)
+2023.12.20 10:30:49 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:86)
+2023.12.20 10:30:49 ERROR 	at sbt.xMain$.run(Main.scala:123)
+2023.12.20 10:30:49 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023.12.20 10:30:49 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2023.12.20 10:30:49 ERROR 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023.12.20 10:30:49 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2023.12.20 10:30:49 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2023.12.20 10:30:49 ERROR 	at sbt.xMain.run(Main.scala:47)
+2023.12.20 10:30:49 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2023.12.20 10:30:49 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2023.12.20 10:30:49 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2023.12.20 10:30:49 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2023.12.20 10:30:49 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2023.12.20 10:30:49 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2023.12.20 10:30:49 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2023.12.20 10:30:49 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2023.12.20 10:30:49 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2023.12.20 10:30:49 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2023.12.20 10:30:49 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2023.12.20 10:30:49 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8312549948383979520_lock, error 5
+2023.12.20 10:30:49 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2023.12.20 10:30:49 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2023.12.20 10:30:49 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2023.12.20 10:30:49 ERROR 	... 23 more
+2023.12.20 10:30:49 INFO  time: ran 'sbt bloopInstall' in 2.52s
+2023.12.20 10:30:49 ERROR sbt command failed: C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\IONUT~1.PLE\AppData\Local\Temp\metals12243144196670949019\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.12.20 10:30:49 INFO  Attempting to connect to the build server...
+2023.12.20 10:30:49 INFO  Bloop uses C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot defined at C:\Users\ionut.plesescu\.bloop\bloop.json
+2023.12.20 10:30:49 ERROR Starting the bsp launcher for bloop...
+2023.12.20 10:30:49 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 41789'...
+2023.12.20 10:30:49 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:30:49 ERROR error: The command bsp --protocol tcp --port 41789 returned with an error
+2023.12.20 10:30:49 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:30:49 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:30:49 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:30:49 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:30:49 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:30:49 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:30:49 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:30:49 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:30:49 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:30:49 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:30:49 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\.bloop\root.json
+2023.12.20 10:30:49 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:30:49 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.12.20 10:30:49 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:501)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.20 10:31:01 INFO  Shutting down server
+2023.12.20 10:31:01 INFO  shutting down Metals
+2023.12.20 10:31:01 INFO  Exiting server
+2023.12.20 10:31:28 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp' for client Visual Studio Code 1.85.1.
+2023.12.20 10:31:29 INFO  Attempting to connect to the build server...
+2023.12.20 10:31:29 INFO  Bloop uses C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot defined at C:\Users\ionut.plesescu\.bloop\bloop.json
+2023.12.20 10:31:29 INFO  skipping build import with status 'Failed'
+2023.12.20 10:31:29 ERROR Starting the bsp launcher for bloop...
+2023.12.20 10:31:29 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 17152'...
+2023.12.20 10:31:29 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:31:29 ERROR error: The command bsp --protocol tcp --port 17152 returned with an error
+2023.12.20 10:31:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:31:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:31:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:31:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:31:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:31:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:31:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:31:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:31:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:31:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:31:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:31:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:31:29 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\.bloop\root.json
+2023.12.20 10:31:29 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.12.20 10:31:29 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:501)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.20 10:31:30 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:31:35 INFO  no build target found for C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.20 10:32:16 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:32:23 INFO  running 'C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\IONUT~1.PLE\AppData\Local\Temp\metals313881547862363464\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.20 10:32:25 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8312549948383979520_lock, error 5
+2023.12.20 10:32:25 INFO  sbt thinks that server is already booting because of this exception:
+2023.12.20 10:32:25 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2023.12.20 10:32:25 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2023.12.20 10:32:25 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:152)
+2023.12.20 10:32:25 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:78)
+2023.12.20 10:32:25 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:78)
+2023.12.20 10:32:25 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:86)
+2023.12.20 10:32:25 ERROR 	at sbt.xMain$.run(Main.scala:123)
+2023.12.20 10:32:25 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023.12.20 10:32:25 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2023.12.20 10:32:25 ERROR 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023.12.20 10:32:25 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2023.12.20 10:32:25 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2023.12.20 10:32:25 ERROR 	at sbt.xMain.run(Main.scala:47)
+2023.12.20 10:32:25 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2023.12.20 10:32:25 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2023.12.20 10:32:25 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2023.12.20 10:32:25 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2023.12.20 10:32:25 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2023.12.20 10:32:25 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2023.12.20 10:32:25 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2023.12.20 10:32:25 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2023.12.20 10:32:25 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2023.12.20 10:32:25 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2023.12.20 10:32:25 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2023.12.20 10:32:25 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8312549948383979520_lock, error 5
+2023.12.20 10:32:25 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2023.12.20 10:32:25 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2023.12.20 10:32:25 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2023.12.20 10:32:25 ERROR 	... 23 more
+2023.12.20 10:32:26 INFO  time: ran 'sbt bloopInstall' in 2.92s
+2023.12.20 10:32:26 ERROR sbt command failed: C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\IONUT~1.PLE\AppData\Local\Temp\metals313881547862363464\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.12.20 10:32:26 INFO  Attempting to connect to the build server...
+2023.12.20 10:32:26 INFO  Bloop uses C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot defined at C:\Users\ionut.plesescu\.bloop\bloop.json
+2023.12.20 10:32:26 ERROR Starting the bsp launcher for bloop...
+2023.12.20 10:32:26 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 22148'...
+2023.12.20 10:32:26 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:32:26 ERROR error: The command bsp --protocol tcp --port 22148 returned with an error
+2023.12.20 10:32:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:32:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:32:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:32:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:32:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:32:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:32:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:32:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:32:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:32:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:32:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:32:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:32:26 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\.bloop\root.json
+2023.12.20 10:32:26 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.12.20 10:32:26 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:501)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.20 10:32:37 INFO  Shutting down server
+2023.12.20 10:32:37 INFO  shutting down Metals
+2023.12.20 10:32:37 INFO  Exiting server
+2023.12.20 10:33:53 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp' for client Visual Studio Code 1.85.1.
+2023.12.20 10:33:55 INFO  Attempting to connect to the build server...
+2023.12.20 10:33:55 INFO  skipping build import with status 'Failed'
+2023.12.20 10:33:55 INFO  Bloop uses C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot defined at C:\Users\ionut.plesescu\.bloop\bloop.json
+2023.12.20 10:33:56 ERROR Starting the bsp launcher for bloop...
+2023.12.20 10:33:56 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 42268'...
+2023.12.20 10:33:56 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:33:56 ERROR error: The command bsp --protocol tcp --port 42268 returned with an error
+2023.12.20 10:33:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:33:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:33:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:33:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:33:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:33:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:33:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist![0m[31m[E][0m Failed to load project from c:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\.bloop\root.json
+2023.12.20 10:33:56 ERROR > 
+2023.12.20 10:33:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:33:56 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.12.20 10:33:55 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:501)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.20 10:33:55 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:33:57 INFO  Shutting down server
+2023.12.20 10:33:57 INFO  shutting down Metals
+2023.12.20 10:34:14 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp' for client Visual Studio Code 1.85.1.
+2023.12.20 10:34:19 INFO  Attempting to connect to the build server...
+2023.12.20 10:34:19 INFO  skipping build import with status 'Failed'
+2023.12.20 10:34:19 INFO  Bloop uses C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot defined at C:\Users\ionut.plesescu\.bloop\bloop.json
+2023.12.20 10:34:20 ERROR Starting the bsp launcher for bloop...
+2023.12.20 10:34:20 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 31654'...
+2023.12.20 10:34:20 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:34:20 ERROR error: The command bsp --protocol tcp --port 31654 returned with an error
+2023.12.20 10:34:20 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:34:20 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:34:20 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:34:20 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:34:20 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:34:20 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:34:20 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\.bloop\root.json
+2023.12.20 10:34:20 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.12.20 10:34:19 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:501)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.20 10:34:19 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:34:24 INFO  no build target found for C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.20 10:34:26 INFO  Attempting to connect to the build server...
+2023.12.20 10:34:26 INFO  Bloop uses C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot defined at C:\Users\ionut.plesescu\.bloop\bloop.json
+2023.12.20 10:34:26 ERROR Starting the bsp launcher for bloop...
+2023.12.20 10:34:26 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 45221'...
+2023.12.20 10:34:26 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:34:26 ERROR error: The command bsp --protocol tcp --port 45221 returned with an error
+2023.12.20 10:34:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:34:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:34:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:34:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:34:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:34:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:34:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:34:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:34:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:34:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:34:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:34:26 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:34:26 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\.bloop\root.json
+2023.12.20 10:34:26 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.12.20 10:34:26 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:501)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.20 10:34:26 INFO  time: code lens generation in 1.76s
+2023.12.20 10:34:27 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:34:27 INFO  compilation cancelled
+2023.12.20 10:34:29 INFO  Attempting to connect to the build server...
+2023.12.20 10:34:29 INFO  Bloop uses C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot defined at C:\Users\ionut.plesescu\.bloop\bloop.json
+2023.12.20 10:34:29 ERROR Starting the bsp launcher for bloop...
+2023.12.20 10:34:29 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 29500'...
+2023.12.20 10:34:29 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:34:29 ERROR error: The command bsp --protocol tcp --port 29500 returned with an error
+2023.12.20 10:34:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:34:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:34:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:34:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:34:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:34:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:34:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:34:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:34:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:34:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:34:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:34:29 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:34:29 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\.bloop\root.json
+2023.12.20 10:34:29 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.12.20 10:34:29 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:501)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.20 10:34:33 INFO  Deleted directories inside .bloop
+2023.12.20 10:34:33 INFO  Attempting to connect to the build server...
+2023.12.20 10:34:33 INFO  Bloop uses C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot defined at C:\Users\ionut.plesescu\.bloop\bloop.json
+2023.12.20 10:34:40 ERROR Starting the bsp launcher for bloop...
+2023.12.20 10:34:40 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 36398'...
+2023.12.20 10:34:40 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:34:40 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:34:40 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:34:40 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:34:40 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:34:40 ERROR error: The command bsp --protocol tcp --port 36398 returned with an error
+2023.12.20 10:34:40 ERROR > No server running at 127.0.0.1:8212, let's fire one...
+2023.12.20 10:34:40 ERROR > Resolving ch.epfl.scala:bloop-frontend_2.12:1.5.13...
+2023.12.20 10:34:40 ERROR > Starting bloop server at 127.0.0.1:8212...
+2023.12.20 10:34:40 ERROR > Attempting a connection to the server...
+2023.12.20 10:34:40 ERROR > Attempting a connection to the server...
+2023.12.20 10:34:40 ERROR > Attempting a connection to the server...
+2023.12.20 10:34:40 ERROR > Attempting a connection to the server...
+2023.12.20 10:34:40 ERROR > Attempting a connection to the server...
+2023.12.20 10:34:40 ERROR > Attempting a connection to the server...
+2023.12.20 10:34:40 ERROR > Attempting a connection to the server...
+2023.12.20 10:34:40 ERROR > Attempting a connection to the server...
+2023.12.20 10:34:40 ERROR > Attempting a connection to the server...
+2023.12.20 10:34:40 ERROR > Attempting a connection to the server...
+2023.12.20 10:34:40 ERROR > Attempting a connection to the server...
+2023.12.20 10:34:40 ERROR > Attempting a connection to the server...
+2023.12.20 10:34:40 ERROR > Attempting a connection to the server...
+2023.12.20 10:34:40 ERROR > Attempting a connection to the server...
+2023.12.20 10:34:40 ERROR > Attempting a connection to the server...
+2023.12.20 10:34:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:34:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:34:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:34:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:34:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:34:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:34:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:34:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:34:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:34:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:34:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:34:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:34:40 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\.bloop\root-test.json
+2023.12.20 10:34:40 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.12.20 10:34:40 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:501)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+Dec 20, 2023 10:36:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.nio.file.AccessDeniedException: C:\Users\ionut.plesescu\Documents\My Videos
+java.util.concurrent.CompletionException: java.nio.file.AccessDeniedException: C:\Users\ionut.plesescu\Documents\My Videos
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.file.AccessDeniedException: C:\Users\ionut.plesescu\Documents\My Videos
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsDirectoryStream.<init>(WindowsDirectoryStream.java:86)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newDirectoryStream(WindowsFileSystemProvider.java:523)
+	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:472)
+	at java.base/java.nio.file.Files.list(Files.java:3699)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.list(ScalametaCommonEnrichments.scala:298)
+	at scala.meta.internal.builds.NewProjectProvider$.askForPath(NewProjectProvider.scala:240)
+	at scala.meta.internal.builds.NewProjectProvider$.$anonfun$askForPath$4(NewProjectProvider.scala:269)
+	at scala.meta.internal.builds.NewProjectProvider$.$anonfun$askForPath$4$adapted(NewProjectProvider.scala:261)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.MetalsEnrichments$OptionFutureTransformer.$anonfun$flatMapOption$1(MetalsEnrichments.scala:1124)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2023.12.20 10:36:35 INFO  Shutting down server
+2023.12.20 10:36:35 INFO  shutting down Metals
+2023.12.20 10:36:35 INFO  Exiting server
+2023.12.20 10:36:41 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp' for client Visual Studio Code 1.85.1.
+2023.12.20 10:36:42 INFO  Attempting to connect to the build server...
+2023.12.20 10:36:42 INFO  Bloop uses C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot defined at C:\Users\ionut.plesescu\.bloop\bloop.json
+2023.12.20 10:36:42 ERROR Starting the bsp launcher for bloop...
+2023.12.20 10:36:42 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 26172'...
+2023.12.20 10:36:42 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:36:42 ERROR error: The command bsp --protocol tcp --port 26172 returned with an error
+2023.12.20 10:36:42 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:36:42 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:36:42 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:36:42 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:36:42 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:36:42 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:36:42 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:36:42 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:36:42 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:36:42 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:36:42 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:36:42 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist![0m[31m[E][0m Failed to load project from c:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\.bloop\root-test.json
+2023.12.20 10:36:42 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.12.20 10:36:42 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:501)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.20 10:36:42 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:36:44 INFO  running 'C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\IONUT~1.PLE\AppData\Local\Temp\metals4710286114059941754\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.20 10:36:47 INFO  no build target found for C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.20 10:36:48 INFO  sbt thinks that server is already booting because of this exception:
+2023.12.20 10:36:48 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8312549948383979520_lock, error 5
+2023.12.20 10:36:48 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2023.12.20 10:36:48 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2023.12.20 10:36:48 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:152)
+2023.12.20 10:36:48 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:78)
+2023.12.20 10:36:48 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:78)
+2023.12.20 10:36:48 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:86)
+2023.12.20 10:36:48 ERROR 	at sbt.xMain$.run(Main.scala:123)
+2023.12.20 10:36:48 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023.12.20 10:36:48 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2023.12.20 10:36:48 ERROR 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023.12.20 10:36:48 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2023.12.20 10:36:48 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2023.12.20 10:36:48 ERROR 	at sbt.xMain.run(Main.scala:47)
+2023.12.20 10:36:48 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2023.12.20 10:36:48 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2023.12.20 10:36:48 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2023.12.20 10:36:48 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2023.12.20 10:36:48 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2023.12.20 10:36:48 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2023.12.20 10:36:48 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2023.12.20 10:36:48 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2023.12.20 10:36:48 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2023.12.20 10:36:48 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2023.12.20 10:36:48 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2023.12.20 10:36:48 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8312549948383979520_lock, error 5
+2023.12.20 10:36:48 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2023.12.20 10:36:48 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2023.12.20 10:36:48 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2023.12.20 10:36:48 ERROR 	... 23 more
+2023.12.20 10:36:47 INFO  time: ran 'sbt bloopInstall' in 4s
+2023.12.20 10:36:48 ERROR sbt command failed: C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\IONUT~1.PLE\AppData\Local\Temp\metals4710286114059941754\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.12.20 10:36:48 INFO  Attempting to connect to the build server...
+2023.12.20 10:36:48 INFO  Bloop uses C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot defined at C:\Users\ionut.plesescu\.bloop\bloop.json
+2023.12.20 10:36:48 ERROR Starting the bsp launcher for bloop...
+2023.12.20 10:36:48 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 37831'...
+2023.12.20 10:36:48 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:36:48 ERROR error: The command bsp --protocol tcp --port 37831 returned with an error
+2023.12.20 10:36:48 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:36:48 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:36:48 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:36:48 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:36:48 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:36:48 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:36:48 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:36:48 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:36:48 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:36:48 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:36:48 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:36:48 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:36:48 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\.bloop\root.json
+2023.12.20 10:36:48 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.12.20 10:36:48 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:501)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.20 10:36:50 INFO  time: code lens generation in 7.81s
+2023.12.20 10:36:58 INFO  Deleted directories inside .bloop
+2023.12.20 10:36:58 INFO  Attempting to connect to the build server...
+2023.12.20 10:36:58 INFO  Bloop uses C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot defined at C:\Users\ionut.plesescu\.bloop\bloop.json
+2023.12.20 10:37:02 ERROR Starting the bsp launcher for bloop...
+2023.12.20 10:37:02 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 30173'...
+2023.12.20 10:37:02 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:37:02 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:37:02 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:37:02 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:37:02 ERROR error: The command bsp --protocol tcp --port 30173 returned with an error
+2023.12.20 10:37:02 ERROR > No server running at 127.0.0.1:8212, let's fire one...
+2023.12.20 10:37:02 ERROR > Resolving ch.epfl.scala:bloop-frontend_2.12:1.5.13...
+2023.12.20 10:37:02 ERROR > Starting bloop server at 127.0.0.1:8212...
+2023.12.20 10:37:02 ERROR > Attempting a connection to the server...
+2023.12.20 10:37:02 ERROR > Attempting a connection to the server...
+2023.12.20 10:37:02 ERROR > Attempting a connection to the server...
+2023.12.20 10:37:02 ERROR > Attempting a connection to the server...
+2023.12.20 10:37:02 ERROR > Attempting a connection to the server...
+2023.12.20 10:37:02 ERROR > Attempting a connection to the server...
+2023.12.20 10:37:02 ERROR > Attempting a connection to the server...
+2023.12.20 10:37:02 ERROR > Attempting a connection to the server...
+2023.12.20 10:37:02 ERROR > Attempting a connection to the server...
+2023.12.20 10:37:02 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:37:02 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:37:02 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:37:02 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:37:02 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:37:02 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:37:02 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:37:02 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:37:02 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:37:02 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:37:02 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:37:02 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:37:02 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\.bloop\root.json
+2023.12.20 10:37:02 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.12.20 10:37:02 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:501)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.20 10:37:06 INFO  Attempting to connect to the build server...
+2023.12.20 10:37:06 INFO  Bloop uses C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot defined at C:\Users\ionut.plesescu\.bloop\bloop.json
+2023.12.20 10:37:06 ERROR Starting the bsp launcher for bloop...
+2023.12.20 10:37:06 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 22943'...
+2023.12.20 10:37:06 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:37:06 ERROR error: The command bsp --protocol tcp --port 22943 returned with an error
+2023.12.20 10:37:06 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:37:06 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:37:06 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:37:06 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:37:06 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:37:06 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:37:06 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:37:06 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\.bloop\root.json[0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:37:06 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.12.20 10:37:06 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:501)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.20 10:37:52 INFO  Shutting down server
+2023.12.20 10:37:52 INFO  shutting down Metals
+2023.12.20 10:37:52 INFO  Exiting server
+2023.12.20 10:38:30 INFO  Started: Metals version 1.2.0+12-644090c2-SNAPSHOT in folders 'C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp' for client Visual Studio Code 1.85.1.
+Downloading https://repo1.maven.org/maven2/com/h2database/h2/2.1.214/h2-2.1.214.jar
+2023.12.20 10:38:32 INFO  Upgraded H2 database.
+2023.12.20 10:38:33 INFO  Attempting to connect to the build server...
+2023.12.20 10:38:33 INFO  Bloop uses C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot defined at C:\Users\ionut.plesescu\.bloop\bloop.json
+2023.12.20 10:38:33 ERROR Starting the bsp launcher for bloop...
+2023.12.20 10:38:33 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 39759'...
+2023.12.20 10:38:33 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:38:33 ERROR error: The command bsp --protocol tcp --port 39759 returned with an error
+2023.12.20 10:38:33 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:38:33 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:38:33 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:38:33 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:38:33 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:38:33 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:38:33 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:38:33 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:38:33 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\.bloop\root.json
+2023.12.20 10:38:33 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.12.20 10:38:33 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:501)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.20 10:38:33 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:38:35 INFO  running 'C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\IONUT~1.PLE\AppData\Local\Temp\metals18417269057445137369\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.20 10:38:39 INFO  sbt thinks that server is already booting because of this exception:
+2023.12.20 10:38:39 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8312549948383979520_lock, error 5
+2023.12.20 10:38:39 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2023.12.20 10:38:39 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2023.12.20 10:38:39 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:152)
+2023.12.20 10:38:39 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:78)
+2023.12.20 10:38:39 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:78)
+2023.12.20 10:38:39 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:86)
+2023.12.20 10:38:39 ERROR 	at sbt.xMain$.run(Main.scala:123)
+2023.12.20 10:38:39 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023.12.20 10:38:39 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2023.12.20 10:38:39 ERROR 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023.12.20 10:38:39 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2023.12.20 10:38:39 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2023.12.20 10:38:39 ERROR 	at sbt.xMain.run(Main.scala:47)
+2023.12.20 10:38:39 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2023.12.20 10:38:39 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2023.12.20 10:38:39 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2023.12.20 10:38:39 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2023.12.20 10:38:39 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2023.12.20 10:38:39 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2023.12.20 10:38:39 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2023.12.20 10:38:39 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2023.12.20 10:38:39 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2023.12.20 10:38:39 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2023.12.20 10:38:39 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2023.12.20 10:38:39 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8312549948383979520_lock, error 5
+2023.12.20 10:38:39 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2023.12.20 10:38:39 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2023.12.20 10:38:39 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2023.12.20 10:38:39 ERROR 	... 23 more
+2023.12.20 10:38:40 INFO  time: ran 'sbt bloopInstall' in 4.34s
+2023.12.20 10:38:40 ERROR sbt command failed: C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\IONUT~1.PLE\AppData\Local\Temp\metals18417269057445137369\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.12.20 10:38:40 INFO  Attempting to connect to the build server...
+2023.12.20 10:38:40 INFO  Bloop uses C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot defined at C:\Users\ionut.plesescu\.bloop\bloop.json
+2023.12.20 10:38:40 ERROR Starting the bsp launcher for bloop...
+2023.12.20 10:38:40 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 17576'...
+2023.12.20 10:38:40 ERROR Waiting for the bsp connection to come up...
+2023.12.20 10:38:40 ERROR error: The command bsp --protocol tcp --port 17576 returned with an error
+2023.12.20 10:38:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:38:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:38:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:38:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:38:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:38:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2023.12.20 10:38:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2023.12.20 10:38:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2023.12.20 10:38:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2023.12.20 10:38:40 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2023.12.20 10:38:40 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\.bloop\root.json[0m[33m[W][0m Scala instance jar C:\Users\HP-Home PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2023.12.20 10:38:40 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.12.20 10:38:40 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:501)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.12.20 10:38:46 INFO  no build target found for C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.20 10:38:49 INFO  time: code lens generation in 15s
+2023.12.20 10:39:45 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\build.sc
+2023.12.20 10:39:48 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\build.sbt
+2023.12.20 10:39:52 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\HomeController.scala
+2023.12.20 10:39:55 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:40:11 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:40:11 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+Dec 20, 2023 10:40:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+Dec 20, 2023 10:40:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 56
+Dec 20, 2023 10:41:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 91
+2023.12.20 10:41:19 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:41:38 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:41:39 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:41:42 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:42:14 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:42:14 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:42:24 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:42:25 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:45:25 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:45:47 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:45:48 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+Dec 20, 2023 10:47:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 279
+2023.12.20 10:47:33 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:47:37 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:47:43 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:47:44 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:47:54 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:47:55 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:47:55 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:48:00 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:48:01 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:48:15 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:48:36 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:48:36 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:48:52 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:48:52 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:48:57 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+Dec 20, 2023 10:50:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 452
+2023.12.20 10:50:32 WARN  no build target for: C:\Users\ionut.plesescu\Documents\Scala\Scala\voiceapp\app\controllers\TwillioController.scala
+2023.12.20 10:51:08 INFO  
+2023.12.20 10:51:08 INFO  Template applied in C:\Users\ionut.plesescu\Documents\Scala\.\hello-world
+2023.12.20 10:51:08 INFO  
+2023.12.20 10:51:08 INFO  time: ran 'giter8.Giter8' in 9.22s
+2023.12.20 10:51:11 INFO  Shutting down server
+2023.12.20 10:51:11 INFO  shutting down Metals
+2023.12.20 10:51:11 INFO  Exiting server

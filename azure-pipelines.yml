@@ -1,0 +1,29 @@
+trigger:
+- main  # Poți schimba această valoare în ramura ta principală
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: ScalaInstaller@1
+  inputs:
+    scalaVersion: '2.13.x'
+    jdkVersion: 'adopt'
+    sbtVersion: '1.5.5'
+
+- script: sbt clean compile test
+  displayName: 'Build and Test'
+
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(Build.SourcesDirectory)'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    replaceExistingArchive: true
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    artifactName: 'drop'
+    publishLocation: 'Container'
