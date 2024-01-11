@@ -1,29 +1,29 @@
 trigger:
-- main  # Poți schimba această valoare în ramura ta principală
+- main
 
 pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: ScalaInstaller@1
-  inputs:
-    scalaVersion: '2.13.x'
-    jdkVersion: 'adopt'
-    sbtVersion: '1.5.5'
+- script: |
+    curl -sL "https://github.com/sbt/sbt/releases/download/v1.5.5/sbt-1.5.5.tgz" | tar -xz -C /usr/local
+    export PATH=$PATH:/usr/local/sbt/bin
+  displayName: 'Install sbt'
 
-- script: sbt clean compile test
-  displayName: 'Build and Test'
+- script: sbt clean compile stage
+  displayName: 'Compile Scala Code'
 
-- task: ArchiveFiles@2
+- script: deployment/package.sh
+  displayName: 'Package Scala Play Application'
+
+- task: CopyFiles@2
   inputs:
-    rootFolderOrFile: '$(Build.SourcesDirectory)'
-    includeRootFolder: false
-    archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
-    replaceExistingArchive: true
+    SourceFolder: '$(Build.SourcesDirectory)/target/universal'
+    Contents: 'VoiceAPP.zip'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)/app'
 
 - task: PublishBuildArtifacts@1
   inputs:
-    pathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    pathtoPublish: '$(Build.ArtifactStagingDirectory)/app'
     artifactName: 'drop'
     publishLocation: 'Container'
